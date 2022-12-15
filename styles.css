@@ -1,0 +1,42 @@
+button[type="back"] {
+    background-image: url("images/cardback.png");
+    background-size: cover;
+    width: 825px;
+    height: 1100px;
+}
+
+button[type="pack"] {
+    background-image: url("images/cardpack.png");
+    background-size: cover;
+    width: 825px;
+    height: 1100px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 5em;
+    color:#057727;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 3em;
+    color:#057727;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    
+}
+
+.padding {
+    padding-bottom: 50px;
+}
+
+body {
+    background: #bbb;
+    background-image: url("images/background.jpg");
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="card.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1 style="align-self: center;">Secret Santa</h1>
+            <h2>click to open your pack!</h2>
+        </div>
+        <div style="align-self: center;" id="pack" style="visibility: visible">
+            <button type="pack" onclick="showCards()"></button>
+        </div>
+        <div style="align-self: center;" id="cards" style="visibility: hidden">
+            <div class="padding">
+                <div id="button0" style="display: none">
+                    <button type="back" onclick="showCard(0)"></button>
+                </div>
+                <div id="card0" style="display: none">
+                    <img style="align-self: center;" src="images/Superliminal(12-12-2022-18_4_30).png">
+                </div>
+            </div>
+            <div class="padding">
+                <div id="button1" style="display: none">
+                    <button type="back" onclick="showCard(1)"></button>
+                </div>
+                <div id="card1" style="display: none">
+                    <img style="align-self: center;" src="images/Before-Your Eyes(12-12-2022-17_50_29).png">
+                </div>
+            </div>
+            <div class="padding">
+                <div id="button2" style="display: none">
+                    <button type="back" onclick="showCard(2)"></button>
+                </div>
+                <div id="card2" style="display: none">
+                    <img style="align-self: center;" src="images/Faith_-The Unholy Trinity(12-12-2022-18_6_37).png">
+                </div>
+            </div>
+            <div class="padding">
+                <div id="button3" style="display: none">
+                    <button type="back" onclick="showCard(3)"></button>
+                </div>
+                <div id="card3" style="display: none">
+                    <img style="align-self: center;" src="images/Ib(12-12-2022-18_4_12).png">
+                </div>
+            </div>
+            <div class="padding">
+                <div id="button4" style="display: none">
+                    <button type="back" onclick="showCard(4)"></button>
+                </div>
+                <div id="card4" style="display: none">
+                    <img style="align-self: center;" src="images/What-Remains of Edith Finch(12-12-2022-17_59_26).png">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
